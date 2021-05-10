@@ -63,7 +63,7 @@ li a:hover {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/arepas.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/arepas-min.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
@@ -260,7 +260,7 @@ h2 {
 
 /*------numeros-------*/
 .numeros {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/degustacion.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/degustacion-min.jpg);
   background-size: cover;
   padding: 50px 0;
   background-attachment: fixed;
