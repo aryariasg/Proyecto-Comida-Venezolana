@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Yayas menu</title>
+    <script src="https://kit.fontawesome.com/915a250260.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="Menú y promociones de autentica comida venezolana y mucho más">
+    <meta name="keywords"  content="EMPANADAS, TEQUEÑOS, AREPAS, TRES LECHES">
+</head>
+<body>
+
+    <div id="top"></div>
+
+
+    <!--- nav -->
+
+    <header>
+        <div class="contenedor">
+            <img class="menu-icon" src="img/menu-icon.png" alt="">
+		    <nav>
+		        <ul>
+		            <li><a href="index.html" class="link">home</a></li>
+		            <li><a href="menu.html" class="link">menu</a></li>
+			        <li><a href="locales.html" class="link">locales</a></li>
+		            <li><a href="reservaciones.html" class="link">reservaciones</a></li>
+		            <li><a href="nosotros.html" class="link">nosotros</a></li>
+		        </ul>	
+	        </nav>
+        </div>
+    
+        <div class="titular">
+            <h1>Nuestro<br>Menu</h1>
+            <p>¡Tentate!</p>
+            <a href="menu.html">pedir ahora</a>
+        </div>
+     </header>
+
+
+
+   <div class="title">
+        <h2>Descubre nuevos sabores</h2>
+   </div>
+
+     
+      
+   <!-------- menu----------->
+
+    <div class="wrapper">
+
+        <div class="menu">
+            <div class="single-menu">
+                <img src="img/tequeños.jpg" alt="">
+                <div class="menu-content">
+                    <h3>Tequeños  <span>300$</span></h3>
+                    <p> Masa de harina de trigo frita rellenos de queso</p>
+                </div>
+            </div>
+
+            <div class="single-menu">
+                <img src="img/tequeños-dulces.jpg" alt="">
+                <div class="menu-content">
+                    <h3>Tequeños dulces  <span>300$</span></h3>
+                    <p>Masa de harina de trigo frita rellenos de chocolate</p>
+                </div>
+            </div>
+
+            <div class="single-menu">
+                <img src="img/arepas4.jpg" alt="">
+                <div class="menu-content">
+                    <h3>Arepas <span>300$</span></h3>
+                    <p>Masa de maíz asada con diferentes rellenos salados</p>
+                </div>
+            </div>
+
+            <div class="single-menu">
+                <img src="img/empanadasalsa.jpg" alt="">
+                <div class="menu-content">
+                    <h3>Empanadas <span>210$</span></h3>
+                    <p>Masa de maíz frita rellena de diferentes sabores salados</p>
+                </div>
+            </div>
+
+            <div class="single-menu">
+                <img src="img/tresleches.jpg" alt="">
+                <div class="menu-content">
+                    <h3>Tres leches <span>150$</span></h3>
+                    <p>Bizcocho humedecido con tres tipos de leche</p>
+                </div>
+            </div>
+
+            <div class="single-menu">
+                <img src="img/cachapa_2x.PNG" alt="">
+                <div class="menu-content">
+                    <h3>Cachapas <span>350$</span></h3>
+                    <p>Panqueque de choclo relleno de queso</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+<!----------- footer ------------>
+        <footer>
+            <div class="footer-content">
+                <div class="contacto">
+                    <p> Visita nuestra redes sociales</p>
+                </div>
+                <div>
+                    <ul class="socials">
+                        <div class="icon">
+                            <li><a class="instagram" href="https://www.instagram.com/yayas_empanadas/"><i class="fab fa-instagram"></i></a></li>
+                        </div>
+                        <div class="icon">
+                            <li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=541133512190&text=%C2%A1Hola!%20Quiero%20hacer%20un%20pedido%20%F0%9F%99%82"><i class="fab fa-whatsapp"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="contacto">
+                    <p> Contacto</p>
+                    <p> yayas@gmail.com</p>
+                    <p> +54 (011) 27179441</p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="copy">
+            <a href="#top"><i class="fas fa-chevron-up"></i></a>
+            <p> © 2021 by ary</p>
+        </div>
+ <!-- -----End ------------>
+
+
+          <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>
+
+          <script>
+            $('.menu-icon').click(function(){
+                $('nav').slideToggle();
+            })
+        </script>
+
+    
+</body>
+</html>

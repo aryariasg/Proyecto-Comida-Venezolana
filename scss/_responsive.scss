@@ -1,0 +1,497 @@
+/*-----------responsive---------*/
+
+
+@media ( min-width: 260px) and (max-width: 480px ) {
+
+
+    header ul{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .contenedor{
+        padding-top: 50px;
+     
+
+     nav{
+        background: #ffb700;
+        width: 100%;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+    }
+
+    nav ul li{
+        margin-bottom: 10px;
+    }
+
+    li a:hover{
+        transition: color .4s ease;
+        color: #1c1c23;
+    
+     
+    }
+
+
+    .link::after{
+        background:  #1c1c23;
+   
+    }
+
+
+    p { 
+    margin-left: 18px;
+    font-size: 25px;
+    color:white;
+    margin-bottom: 50px;
+    }
+
+
+    .galeria h2{
+        margin-top: 20%;
+    
+    }
+
+
+    h2{
+        font-size: 45px;
+        text-align: center;
+        justify-content: center;
+        line-height: 90px;
+     
+    }
+}
+
+
+.titular h1{
+    font-size: 80px;
+    line-height: 65px;
+    margin-top: 40%;
+
+}
+
+.titular p{
+    width: 260px;
+}
+
+.titular {
+    margin-left: 90px;
+    text-align: center;
+    margin: 50px;
+    margin-top: 50px;
+
+}
+
+.galeria h2{
+    line-height: 40px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+header .menu-icon{
+    display: block;
+    height: 25px;
+    width: auto;
+    margin-top: -40px
+
+
+}
+
+    .caja{
+        flex-direction: column;
+        margin-top:  -65px;
+
+    }
+
+
+    .caja .foto{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+
+    .oculto h3{
+        top: 30px;  
+        color:#f8f4ed;
+        font-size: 30px;
+ 
+    }
+
+
+    header {
+        background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../img/tabla-cortar-surtido-arepas_23-2148742396.jpg);
+
+        
+        
+    }
+
+
+
+    .about{
+        flex-direction: column;
+        height: 160vh;
+        padding: 40px 1px;
+        overflow: hidden;
+
+
+        .image{
+            width: 100%;
+            margin: 28px;
+            margin-top: 0%;
+            justify-content: center;
+        }
+
+        .texto{
+            font-size: 18px;
+            width: 80%;
+            margin: 33px;
+
+            
+        }
+
+        h2{
+            line-height: 40px;
+            font-size: 50px;
+            margin-top: 4%;
+        }
+
+    }
+
+    img{
+        width: 308px;
+    }
+    
+    .numeros{
+    background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../img/chef-preparando-arepa-venezolana-rellena-carne-desmenuzada_203019-68.jpg);
+
+    } 
+    .numero h2{
+        font-size: 60px;
+        margin-top: 90px;
+    }
+
+    .numero p{
+        margin-top: 40px;
+        margin-left: 53px;
+        
+    }
+    
+
+
+    .wrapper{
+        width: 360px;
+        margin: 0px 3px;
+        overflow: hidden;
+        
+
+    }
+    
+    .wrapper .menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .single-menu{ 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+    footer .socials{
+        margin-right: 11%;
+    }
+
+
+
+h2{
+    font-size: 55px;
+    margin: 50px;
+    line-height: 46px;
+
+}
+
+.wrapper .single-menu{
+    flex-basis: 0px;
+    flex-direction: unset;
+    margin-top: 1px;
+}
+
+.single-menu p{
+    font-size: 18px;
+    margin-top: -18px;
+    width: 134px;
+        
+}
+
+
+.single-menu h3{
+    width: 20px;
+}
+
+#adress{
+    flex-direction: column;
+
+    img{
+        margin-top: -100px;
+    }
+}
+
+#address p{
+    font-size: 25px;
+    line-height: 5px;
+}
+
+#adress .derecha{
+    padding: 35px 80px;
+    margin-top: -5%;
+}
+
+
+#adress img{
+    width: 250%;
+}
+}
+
+form{
+    width: 33%;
+    height: auto;
+    overflow: hidden;
+    
+
+}
+
+
+
+@media ( min-width: 480px) and (max-width: 760px )  {
+
+    header ul{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .contenedor{
+        padding-top: 50px;
+     
+
+     nav{
+        background: #ffb700;
+        width: 100%;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        display: none;
+    }
+
+    nav ul li{
+        margin-bottom: 10px;
+    }
+
+    li a:hover{
+        transition: color .4s ease;
+        color: #1c1c23;
+    
+     
+    }
+
+
+    .link::after{
+        background:  #1c1c23;
+   
+    }
+
+
+    p { 
+    margin-left: 18px;
+    font-size: 25px;
+    color:white;
+    margin-bottom: 50px;
+    }
+
+
+    .galeria h2{
+        margin-top: 79%;
+        margin: 50px;
+    
+    }
+
+
+    h2{
+        font-size: 70px;
+        text-align: center;
+        justify-content: center;
+        line-height: 90px;
+        width: 500px;
+     
+    }
+}
+
+
+.titular h1{
+    font-size: 80px;
+    line-height: 65px;
+    margin-top: 25%;
+
+}
+
+.titular p{
+    margin-left: 34%;
+    width: 200px;
+}
+
+.titular {
+    margin-left: 90px;
+    text-align: center;
+    margin: 50px;
+    margin-top: 50px;
+
+}
+
+.galeria h2{
+    line-height: 60px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+header .menu-icon{
+    display: block;
+    height: 25px;
+    width: auto;
+    margin-top: -40px
+
+
+}
+
+    .caja{
+        padding: 20px;
+    }
+
+
+    .caja .foto{
+        width: 100%;
+        margin-top: 23px;
+    }
+
+    .oculto h3{
+        top: 30px;  
+        color:#f8f4ed;
+        font-size: 30px;
+ 
+    }
+
+    .botton__galeria{
+        margin-top: 2%;
+    }
+
+
+    header {
+        background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../img/tabla-cortar-surtido-arepas_23-2148742396.jpg);
+
+        
+        
+    }
+
+    .about{
+        height: 89vh;
+
+
+        .image{
+            width: 100%;
+            margin: 23px;
+            margin-top: 4%;
+            justify-content: center;
+        }
+
+        .texto{
+            font-size: 18px;
+            width: 80%;
+            margin: 33px;
+
+            
+        }
+
+        h2{
+            line-height: 40px;
+            font-size: 50px;
+        }
+
+    }
+    
+    .numeros{
+    background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../img/chef-preparando-arepa-venezolana-rellena-carne-desmenuzada_203019-68.jpg);
+
+    } 
+    .numero h2{
+        font-size: 60px;
+        margin-top: 90px;
+    }
+
+    .numero p{
+        margin-top: 40px;
+        margin-left: 181px;
+        
+    }
+    
+
+    .wrapper{
+        width: 719px;
+        height: auto;
+        margin: 35px 7px;
+    }
+
+    footer .socials{
+        margin-right: 6%;
+    }
+
+
+
+h2{
+    font-size: 60px;
+    margin-top: 55px;
+
+
+}
+
+
+
+#adress{
+    flex-direction: column;
+
+    img{
+        margin-top: -92px;
+    }
+}
+
+#address p{
+    font-size: 25px;
+    line-height: 5px;
+}
+
+#adress .derecha{
+    padding: 35px 80px;
+    margin-top: -5%;
+}
+
+
+#adress img{
+    width: 250%;
+}
+
+.title h2{
+    padding: 1em;
+}
+
+
+
+
+}

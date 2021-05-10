@@ -1,0 +1,134 @@
+header { 
+    
+    .contenedor{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    
+ 
+}
+
+    ul{
+        display: flex;
+    
+    }
+
+    li{
+        display: inline-block;
+        margin: 0 20px;
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 0;
+       
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: #f8f4ed;
+        margin: 0 10px;
+        margin-top: 20px;
+
+      
+       
+    }
+
+    .menu-icon{
+        display: none;
+    }
+
+
+}
+
+li a{
+    display: inline-block;
+}
+
+li a:hover{
+    transition: color .4s ease;
+    color: #FFC000;
+
+ 
+}
+
+.link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFC000;
+    transition: width 0.3s;
+}
+
+.link:hover::after{ 
+
+    width: 100%;
+    transition: width 0.3s;
+}
+
+
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../img/arepas.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+
+h1 { 
+    font-size: 100px;
+    color: #FFC000;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 80px;
+   
+}
+
+.titular { 
+
+    margin-left: 120px;
+    margin-top: 100px;
+
+
+
+p { 
+ 
+    font-size: 25px;
+    width: 15px;
+    color:white;
+    margin-bottom: 50px;
+    margin-left: 1%;
+    
+
+
+}
+
+a { 
+ 
+    text-transform: uppercase;
+    background-color: #ffb700;
+    text-decoration: none;
+    color: #1c1c23;
+    padding: 18px 45px;
+    border-radius: 50px;
+    transition: 0.4s;
+
+}
+
+a:hover{
+    background-color:#ffd000;
+    color: #1c1c23;
+    transition: 0.4s;
+  
+    
+}
+}
+
